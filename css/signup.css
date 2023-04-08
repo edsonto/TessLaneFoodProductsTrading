@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+html body {
+	background-color: #7cffcb;
+	background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+	font-family: Montserrat;
+}
+.register-form {
+  margin-top: 50px;
+	z-index: 2;
+}
+.register-form h1 {
+	color: #fff;
+}
+.register-form input, .register-form select {
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+	outline: none;
+	transition: .3s;
+	background-color: #fff;
+  	color: #000;
+  	border: 1px solid #fff;
+}
+.register-form select {
+  text-align: center;
+  text-align-last: center;
+}
+.register-form input:focus, .register-form select:focus {
+	width: 350px;
+	background-color: #fff;
+	color: #000;
+}
+.register-form .register-submit {
+	width: 300px;
+	height: 40px;
+	font-size: 15px;
+	border: none;
+	color: #7cffcb;	
+	font-weight: bold;
+}
+@-webkit-keyframes circle1 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle2 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle3 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle4 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle5 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle6 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+.circle1 {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  animation-duration: 15s;
+  animation-name: circle1;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  animation-delay: 2s;
+  opacity: .5;
+}
+.circle2 {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  animation-duration: 11s;
+  animation-name: circle2;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 20%;
+  animation-delay: 5s;
+  opacity: .5;
+}
+.circle3 {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  animation-duration: 12s;
+  animation-name: circle3;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 40%;
+  animation-delay: 3s;
+  opacity: .5;
+}
+.circle4 {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  animation-duration: 11s;
+  animation-name: circle4;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 60%;
+  animation-delay: 7s;
+  opacity: .5;
+}
+.circle5 {
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  animation-duration: 11s;
+  animation-name: circle1;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 80%;
+  animation-delay: 10s;
+  opacity: .5;
+}
+.circle6 {
+  width: 180px;
+  height: 180px;
+  background-color: #fff;
+  animation-duration: 11s;
+  animation-name: circle1;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 100%;
+  animation-delay: 3s;
+  opacity: .5;
+}
+

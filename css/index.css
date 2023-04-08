@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+html body {
+	background-color: #57595D;
+	background-image: linear-gradient(315deg, #57595D 0%, #57595D 74%);
+	font-family: Montserrat;
+}
+.company-name {
+	margin-top: 200px;
+	z-index: 2;
+	color: #fff;
+}
+.login-form {
+	z-index: 2;
+}
+.login-form h1 {
+	color: #fff;
+}
+.login-form input {
+	text-align: center;
+	font-size: 15px;
+	outline: none;
+	transition: .3s;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #fff;
+}
+.login-form input:focus {
+	width: 90%;
+	background-color: #fff;
+	color: #000;
+}
+.login-form .login-submit {
+	/*font-size: 15px;*/
+  width: 100%;
+	border: none;
+	color: #57595D;	
+	font-weight: bold;
+}
+@-webkit-keyframes circle1 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle2 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle3 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle4 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle5 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+@-webkit-keyframes circle6 {
+  0%   { transform: translateY(0);}
+  100% { transform: translateY(-1500px) rotate(600deg);}
+}
+.circle1 {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  animation-duration: 15s;
+  animation-name: circle1;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  animation-delay: 2s;
+  opacity: .5;
+}
+.circle2 {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  animation-duration: 11s;
+  animation-name: circle2;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 20%;
+  animation-delay: 5s;
+  opacity: .5;
+}
+.circle3 {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  animation-duration: 12s;
+  animation-name: circle3;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 40%;
+  animation-delay: 3s;
+  opacity: .5;
+}
+.circle4 {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  animation-duration: 11s;
+  animation-name: circle4;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 60%;
+  animation-delay: 7s;
+  opacity: .5;
+}
+.circle5 {
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  animation-duration: 11s;
+  animation-name: circle1;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 80%;
+  animation-delay: 10s;
+  opacity: .5;
+}
+.circle6 {
+  width: 180px;
+  height: 180px;
+  background-color: #fff;
+  animation-duration: 11s;
+  animation-name: circle1;
+  animation-iteration-count: infinite;
+  position: fixed;
+  bottom: -30%;
+  left: 100%;
+  animation-delay: 3s;
+  opacity: .5;
+}
+
